@@ -97,20 +97,6 @@ body {
   font-size: 20px;
 }
 
-/* PROGRESS BAR */
-.progressbar {
-  width: 400px;
-  height: 10px;
-  background-color: white;
-  margin-bottom: 50px;
-}
-
-.progressbar div {
-  width: 33.3%;
-  height: 100%;
-  background-color: rgb(98, 0, 255);
-}
-
 .info-container {
   height: 100%;
   width: 100%;
@@ -134,5 +120,6 @@ input {
 }
 
 input:focus {
+  outline: none;
   border: 3px solid rgb(98, 0, 255);
 }
